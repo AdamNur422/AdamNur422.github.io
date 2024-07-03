@@ -260,3 +260,28 @@ ul {
     text-align: center;
   }
 }
+
+/* button styles*/
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  background-color: #3D348B; 
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #7678ED; 
+}
+
+.custom-button:active {
+  background-color: #5A4CB2; 
+}
