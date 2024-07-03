@@ -85,12 +85,6 @@ window.onclick = function(event) {
   }
 }
 
-//BUTTON 3 -- links to outside website
-var btn3 = document.getElementById("btn3");
-btn3.onclick = function() { 
-  window.open("https://www.nintendo.com", "_blank") //TODO add your link
-}
-
 //BUTTON 4
 var modal4 = document.getElementById("modal4");
 
