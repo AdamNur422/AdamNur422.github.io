@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,11 +12,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
+
   <body>
     <canvas id="canvas-image-blending"></canvas>
 
     <div class="main-content" style="text-align: center; width: 100%; position: absolute">
+
       <center>
 
         <div class="" style="height: 750px;">
@@ -50,49 +54,48 @@
         <h2 style="padding-bottom: 20px">My Current Projects</h2>
 
         <!-- Current Project #1 -->
-        <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 40px;">
+        <div class="flex-container-reverse project-container" style="padding-bottom: 50px; padding-top: 40px;">
           <div class="big-container-left">
-            <h3>Porttitor massa</h3>
-            <p class="time-text">May 2020 - TBD</p> <!--Add your own dates-->
-            <p>Enim praesent elementum facilisis leo vel fringilla est ullamcorper eget. Velit laoreet id donec ultrices. Libero volutpat sed cras ornare. Porttitor leo a diam sollicitudin tempor id eu. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Diam vel quam elementum pulvinar etiam. Porttitor rhoncus dolor purus non enim. Quam id leo in vitae. </p>
+            <h3>Fake News Detection Project</h3>
+            <p class="time-text">June 2024</p> 
+            <p>
+              This project involves developing a model to detect fake news using Natural Language Processing (NLP) techniques. 
+              The dataset includes various news articles labeled as "FAKE" or "REAL". 
+              The goal is to analyze the text and classify it accurately, enhancing the reliability of news content. 
+              Eventually, I plan to create an app that can detect if news is fake or not once the model is more refined.
+            </p>
             <button style="padding-bottom: 5px;" type="button" class="btn btn-outline-success" id="btn1">See more</button>
           </div>
           <div class="small-container-right">
-            <img src="assets/desk setup.webp" class="title-image">
+            <img src="assets/nlp1.webp" class="title-image">
           </div>
         </div>
 
         <!-- Current Project #2 -->
-        <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 40px;">
+        <div class="flex-container-reverse project-container" style="padding-bottom: 50px; padding-top: 40px;">
           <div class="big-container-left">
-            <h3>Auctor augue</h3>
-            <p class="time-text">April 2019 - TBD</p> <!--Add your own dates-->
-            <p>Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Morbi quis commodo odio aenean sed adipiscing diam. Vitae purus faucibus ornare suspendisse sed. Vitae congue mauris rhoncus aenean vel. Ut ornare lectus sit amet est placerat in. Congue quisque egestas diam in.</p>
+            <h3>Twitter Sentiment Analysis Project</h3>
+            <p class="time-text">June 2024</p>
+            <p>
+              This project involves developing a sentiment analysis model to analyze tweets. 
+              The goal is to classify the sentiment of tweets as positive, negative, or neutral using Natural Language Processing (NLP) techniques. 
+              The dataset includes a large collection of tweets, and the model is trained to recognize patterns and sentiments within the text.
+              I am using Comet ML for experiment tracking so I can make an application that can monitor and analyze sentiment trends on Twitter in real-time.
+            </p>
             <button style="padding-bottom: 5px;" type="button" class="btn btn-outline-success" id="btn2">See more</button>
           </div>
+
           <div class="small-container-right">
-            <img src="assets/app.webp" class="title-image">
+            <img src="assets/nlp2.jpg" class="title-image sentiment-analysis-logo">
           </div>
         </div>
 
-        <!-- Current Project #3 -->
-        <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 40px;">
-          <div class="big-container-left">
-            <h3>Mauris</h3>
-            <p class="time-text">June 2022 - TBD</p> <!--Add your own dates-->
-            <p>Consequat id porta nibh venenatis cras sed felis eget. Viverra accumsan in nisl nisi. Quam id leo in vitae. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus.</p>
-            <button style="padding-bottom: 5px;" type="button" class="btn btn-outline-success" id="btn3">Visit</button>
-          </div>
-          <div class="small-container-right">
-            <img src="assets/project3.jpg" class="title-image">
-          </div>
-        </div>
 
         <!-- Completed projects -->
-        <h2 style="padding-bottom: 20px">My Completed Projects (recent to old)</h2>
+        <h2 style="padding-bottom: 20px ">My Completed Projects (recent to old)</h2>
 
         <!-- Completed Project #1 -->
-        <div class="flex-container" style="padding-bottom: 100px; padding-top: 50px;">
+        <div class="flex-container project-container" style="padding-bottom: 100px; padding-top: 50px;">
           <div class="small-container-left" style="">
             <img src="assets/project4.jpg" alt="" class="title-image">
           </div>
@@ -105,7 +108,7 @@
         </div>
 
         <!-- Completed Project #2 -->
-        <div class="flex-container" style="padding-bottom: 100px; padding-top: 50px;">
+        <div class="flex-container project-container" style="padding-bottom: 100px; padding-top: 50px;">
           <div class="small-container-left" style="">
             <img src="assets/project5.webp" alt="" class="title-image">
           </div>
@@ -118,7 +121,7 @@
         </div>
 
         <!-- Completed Project #3 -->
-        <div class="flex-container" style="padding-bottom: 100px; padding-top: 50px;">
+        <div class="flex-container project-container" style="padding-bottom: 100px; padding-top: 50px;">
           <div class="small-container-left" style="">
             <img src="assets/project6.webp" alt="" class="title-image">
           </div>
@@ -274,56 +277,70 @@
 
         <p>Made with ❤ with HTML, CSS, Javascript, & Bootstrap. Template from <a href="https://rosacodes.gumroad.com/l/personal-website-template">Rosacodes</a></p>
 
-        <!--MODALS-->
-
-        <!-- Modal for Button #1 - change inside information such as images and text to make it your own-->
+          
+        <!-- Current project 1 modal-->
         <div id="modal1" class="modal">
           <div class="modal-content">
             <span class="closeModal1">&times;</span>
-            <h2>Porttitor massa</h2>
+            <h2>Fake News Detection Project</h2>
             <br>
+
             <div id="carouselIndicators1" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
+
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="assets/desksetup2.webp" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
                 </div>
+
                 <div class="carousel-item">
                   <img src="assets/desksetup3.jpeg" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
                 </div>
+
                 <div class="carousel-item">
                   <img src="assets/desksetup4.webp" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
                 </div>
               </div>
+
               <br>
+
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators1" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
+
               <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators1" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
-          </div>
-            <p>Amet consectetur adipiscing elit duis. Sagittis purus sit amet volutpat consequat mauris nunc congue nisi. In hendrerit gravida rutrum quisque non tellus orci ac auctor. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Eu facilisis sed odio morbi. Amet nisl suscipit adipiscing bibendum est ultricies integer quis.</p>
-            <p>Skills used:</p>
-            <ul>
-              <li>HTML, CSS, JavaScript</li>
-              <li>Google Firebase</li>
+
+            </div>
+
+            <p>
+              This project involves developing a model to detect fake news using Natural Language Processing (NLP) techniques. 
+              The dataset includes various news articles labeled as "FAKE" or "REAL". 
+              The goal is to analyze the text and classify it accurately, enhancing the reliability of news content. 
+              Eventually, I plan to create an app that can detect if news is fake or not once the model is more refined.
+            </p>
+
+            <ul class="skills-list">
+              <li>Python, TensorFlow, Sklearn, Matplotlib, Keras</li>
+              <li>Natural Language Processing</li>
             </ul>
-            <p>Skills learned:</p>
-            <ul>
-              <li>Marketing</li>
-            </ul>
-            <p>Amet nisl suscipit adipiscing bibendum est ultricies integer quis.</p>
+            
+            <div class="project-links">
+              <a class="github-button" href="https://github.com/AdamNur422/nlpProj/blob/main/FakeNews/FakeNews.ipynb" data-color-scheme="no-preference: light; light: light; light: light;" data-icon="octicon-play" data-size="large" aria-label="Use this GitHub Action AdamNur422/nlpProj on GitHub">View on GitHub</a>
+              <a class="github-button" href="projects/FakeNews.zip" data-color-scheme="no-preference: light; light: dark_high_contrast; dark: light;" data-icon="octicon-download" data-size="large" aria-label="Download AdamNur422/nlpProj on GitHub">Download</a>
+            </div>
+
           </div>
         </div>
 
-        <!-- Modal for Button #2 - change inside information such as images and text to make it your own-->
+        <!-- Current project 2 modal -->
         <div id="modal2" class="modal">
           <div class="modal-content">
             <span class="closeModal2">&times;</span>
@@ -335,18 +352,15 @@
                 <button type="button" data-bs-target="#carouselIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
+
               <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="assets/app1.webp" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/app2.webp" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/app3.webp" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
-                </div>
+                <div class="carousel-item active"><img src="assets/app1.webp" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="..."></div>
+                <div class="carousel-item"><img src="assets/app2.webp" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="..."></div>
+                <div class="carousel-item"><img src="assets/app3.webp" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="..."></div>
               </div>
+
               <br>
+
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators2" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -355,22 +369,28 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
+
           </div>
-            <p>Leo integer malesuada nunc vel risus commodo viverra maecenas. In hendrerit gravida rutrum quisque non. Lectus mauris ultrices eros in. Proin sed libero enim sed faucibus. In eu mi bibendum neque egestas congue quisque egestas diam. Amet massa vitae tortor condimentum lacinia quis vel eros. Pretium viverra suspendisse potenti nullam ac tortor vitae. Non arcu risus quis varius quam quisque id. Quis auctor elit sed vulputate mi sit amet. Tellus integer feugiat scelerisque varius morbi. Eget nullam non nisi est sit.</p>
+            <p>
+              This project involves developing a sentiment analysis model to analyze tweets. 
+              The goal is to classify the sentiment of tweets as positive, negative, or neutral using Natural Language Processing (NLP) techniques. 
+              The dataset includes a large collection of tweets, and the model is trained to recognize patterns and sentiments within the text.
+              I am using Comet ML for experiment tracking so I can make an application that can monitor and analyze sentiment trends on Twitter in real-time.
+            </p>
             <p>Skills used:</p>
-            <ul>
-              <li>Swift</li>
-              <li>SwiftUI</li>
+
+            <ul class="skills-list">
+              <li>Python, TensorFlow, Sklearn, CometML</li>
+              <li>Natural Language Processing</li>
             </ul>
-            <p>Skills learned:</p>
-            <ul>
-              <li>Github</li>
-            </ul>
-            <p>Amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus.</p>
+
+            <div class="project-links">
+              <a class="github-button" href="https://github.com/AdamNur422/nlpProj/blob/main/SentimetAn/twitterProj.ipynb" data-color-scheme="no-preference: light; light: light; light: light;" data-icon="octicon-play" data-size="large" aria-label="Use this GitHub Action AdamNur422/nlpProj on GitHub">View on GitHub</a>
+              <a class="github-button" href="" data-color-scheme="no-preference: light; light: dark_high_contrast; dark: light;" data-icon="octicon-download" data-size="large" aria-label="Download AdamNur422/nlpProj on GitHub">Download</a>
+            </div>
+
           </div>
         </div>
-
-        <!--Button #3 goes to outside link, so no modal is necessary-->
 
         <!-- Modal for Button #4 - change inside information such as images and text to make it your own-->
         <div id="modal4" class="modal">
@@ -695,6 +715,7 @@
         </div>
 
       </center>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

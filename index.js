@@ -7,7 +7,7 @@ var typewriter = new Typewriter(app, {
 
 typewriter
   .pauseFor(1000)
-  .typeString('I am a gradute computer science student at the University of North Carolina at Charlotte') //Add your own tagline
+  .typeString('I am a graduate computer science student at the University of North Carolina at Charlotte') 
   .pauseFor(3000)
   .start()
 
@@ -17,7 +17,7 @@ var granimInstance = new Granim({
     direction: 'top-bottom',
     isPausedWhenNotInView: true,
     image : {
-        source: 'assets/campus.jpg', //change image for intro section if desired
+        source: 'assets/campus.jpg',
         blendingMode: 'multiply',
     },
     states : {

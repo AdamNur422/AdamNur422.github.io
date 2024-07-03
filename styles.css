@@ -273,3 +273,50 @@ ul {
   padding: 10px 20px;
   font-size: 1.25rem;
 }
+
+.project-links {
+  margin-top: 20px;
+}
+
+.skills-list li {
+  background: #f0f0f0;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.project-container {
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 20px;
+  background: #fff;
+  position: relative;
+  transition: box-shadow 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.project-container {
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 20px;
+  background: #fff;
+  position: relative;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.project-container:hover {
+  background: rgba(0, 0, 0, 0.1); 
+  transform: scale(1.02); 
+}
+
+.big-container-left, .small-container-right {
+  border-radius: 20px;
+}
+
+.sentiment-analysis-logo {
+  border-radius: 20px;
+  width: 80%;
+  margin-top: 80px; 
+}
+
+
