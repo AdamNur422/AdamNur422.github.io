@@ -319,4 +319,24 @@ ul {
   margin-top: 80px; 
 }
 
+.list {
+  padding-bottom: 5px; 
+  font-size: 15px;
+}
+
+.closeModal {
+  cursor: pointer;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.closeModal:hover {
+  color: red;
+  background-color: rgba(211, 211, 211, 0.774);
+}
+
+
+
+
 
