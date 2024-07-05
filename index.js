@@ -33,19 +33,19 @@ var granimInstance = new Granim({
     }
 });
 
-
+// Function to open modals
 function openModal(modalId) {
   var modal = document.getElementById(modalId);
   modal.style.display = "block";
 }
 
-
+// Function to close modals
 function closeModal(modalId) {
   var modal = document.getElementById(modalId);
   modal.style.display = "none";
 }
 
-
+// Opening modals
 document.getElementById("btn1").onclick = function() {
   openModal("modal1");
 };
@@ -60,7 +60,7 @@ document.getElementById("btn5").onclick = function() {
   openModal("modal5");
 };
 
-
+// Closing modals
 document.querySelectorAll('.closeModal').forEach(function(element) {
   element.onclick = function() {
     var modal = element.closest('.modal');
@@ -69,11 +69,13 @@ document.querySelectorAll('.closeModal').forEach(function(element) {
 });
 
 // Close modal when clicking outside of it
-window.onclick = function(event) {
+window.addEventListener('click', function(event) {
+  console.log("Window click detected:", event.target);
   if (event.target.classList.contains('modal')) {
     event.target.style.display = "none";
+    console.log("Closing modal from outside click:", event.target.id);
   }
-}
+});
 
 
 //BUTTON 6 -- links to outside website
