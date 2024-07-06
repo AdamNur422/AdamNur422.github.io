@@ -87,7 +87,7 @@ window.addEventListener('click', function(event) {
 });
 
 function loadTableauVisualization() {
-  var divElement = document.getElementById('viz1720283660448');
+  var divElement = document.getElementById('viz1720284925294');
   if (!divElement) return;
   
   var vizElement = divElement.getElementsByTagName('object')[0];
@@ -102,6 +102,8 @@ function loadTableauVisualization() {
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
   }
 }
+
+
 
 //HOBBY MODALS
 
