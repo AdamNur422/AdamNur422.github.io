@@ -37,6 +37,10 @@ var granimInstance = new Granim({
 function openModal(modalId) {
   var modal = document.getElementById(modalId);
   modal.style.display = "block";
+
+  if (modalId === 'modal4') {
+    loadTableauVisualization();
+  }
 }
 
 // Function to close modals
@@ -45,7 +49,6 @@ function closeModal(modalId) {
   modal.style.display = "none";
 }
 
-// Opening modals
 document.getElementById("btn1").onclick = function() {
   openModal("modal1");
 };
@@ -61,6 +64,9 @@ document.getElementById("btn5").onclick = function() {
 };
 document.getElementById("btn6").onclick = function() {
   openModal("modal6");
+};
+document.getElementById("btn7").onclick = function() {
+  window.open("https://github.com/RiffRoom/Final-project-ORG_REP", "_blank");
 };
 
 // Closing modals
@@ -79,6 +85,23 @@ window.addEventListener('click', function(event) {
     console.log("Closing modal from outside click:", event.target.id);
   }
 });
+
+function loadTableauVisualization() {
+  var divElement = document.getElementById('viz1720283660448');
+  if (!divElement) return;
+  
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  vizElement.style.width = '100%';
+  vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+  
+  // Only create the script element if it doesn't already exist
+  if (!document.getElementById('tableau-script')) {
+    var scriptElement = document.createElement('script');
+    scriptElement.id = 'tableau-script';
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  }
+}
 
 //HOBBY MODALS
 
