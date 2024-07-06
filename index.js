@@ -59,6 +59,9 @@ document.getElementById("btn4").onclick = function() {
 document.getElementById("btn5").onclick = function() {
   openModal("modal5");
 };
+document.getElementById("btn6").onclick = function() {
+  openModal("modal6");
+};
 
 // Closing modals
 document.querySelectorAll('.closeModal').forEach(function(element) {
@@ -76,13 +79,6 @@ window.addEventListener('click', function(event) {
     console.log("Closing modal from outside click:", event.target.id);
   }
 });
-
-
-//BUTTON 6 -- links to outside website
-var btn6 = document.getElementById("btn6");
-btn6.onclick = function() { 
-  window.open("https://www.arduino.cc", "_blank") //TODO add your link
-}
 
 //HOBBY MODALS
 
